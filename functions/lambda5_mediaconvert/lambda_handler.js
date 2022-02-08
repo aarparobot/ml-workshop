@@ -310,8 +310,8 @@ exports.handler = function(event, context, callback) {
             }
           ]
         },
-        "Queue": "arn:aws:mediaconvert:us-east-1:963778699255:queues/Default",
-        "Role": "arn:aws:iam::963778699255:role/MediaConvertRoleAWSDefined"
+        "Queue": "arn:aws:mediaconvert:us-east-1:011383624955:queues/Default",
+        "Role": "arn:aws:iam::011383624955:role/MediaConvertRoleAWSDefined"
       }
       
       new AWS.MediaConvert({apiVersion: '2017-08-29'}).createJob(mediaConvertParams, function (err,data) {
